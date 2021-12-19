@@ -12,9 +12,10 @@ const db = new DB();
 app.use(morgan("tiny"));
 
 app.use(
-  cors({
-    origin: "http://localhost:3000/",
-  })
+  cors()
+  //   {
+  //   origin: "http://localhost:3000/",
+  // }
 );
 
 app.use(bodyParser.json());
