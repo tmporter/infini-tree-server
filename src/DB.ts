@@ -2,7 +2,7 @@ import OrnamentData from "./OrnamentData";
 import { v4 as uuidv4 } from "uuid";
 import JSONdb from "simple-json-db";
 
-const dbPath = "D:\\Dev\\wubby-tree-server\\data\\db.json";
+const dbPath = "D:\\Dev\\infini-tree-server\\data\\db.json";
 
 class DB {
   private db = new JSONdb(dbPath);
